@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "static": "next build && touch ../docs/.nojekyll && touch ../docs/_next/.nojekyll && echo 'oliveiraemelliadv.com.br' > ../docs/CNAME"
+    "static": "next build -o ../docs && touch ../docs/.nojekyll && touch ../docs/_next/.nojekyll && echo 'oliveiraemelliadv.com.br' > ../docs/CNAME"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.14",
